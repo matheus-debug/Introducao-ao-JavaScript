@@ -18,10 +18,37 @@ console.log(frase.replace('Japão', 'Brasil')); //.replace realiza a substituiç
 var lista = ['Maça', 'Pêra', 'Morango']
 //lista.push('Uva'); // .push é utilizado para adicionar valores para um array existente
 //lista.pop(); //remove o ultimo valor do array
-console.log(lista.length); // .length exibe a quantidade de itens na variavel
+/*console.log(lista.length); // .length exibe a quantidade de itens na variavel
 console.log(lista.reverse()) // .reverse() retorna os valores do array do ultimo para o primeiro
 console.log(lista.toString()) // Transforma os valores do array em strings
 console.log(lista.join(' || ')) // Tranforma os valores do array em string, porem vc pode selecionar a formatação da separação dos itens
 
 var fruta = {nome: 'Maça', cor:'Vermelho'}
-console.log(fruta);
+console.log(fruta);*/
+
+
+//// AULA3 - CONDICIONAIS, LAÇOS DE REPE~TIÇÃO E DATE
+
+/*var idade = prompt('Qual sua idade?'); //comando prompt coleta informações do usuário
+if (idade >= 18) {
+	alert('Maior de idade');
+}else{
+	alert('Menor de idade');*/
+
+/*var count = 0;
+
+while(count < 5){
+	alert(count);
+	count++;
+};*/
+
+/*var count = 0;
+for (count; count <= 5; count++){
+	console.log(count);
+}*/
+
+var d = new Date(); //função que exibe a atual data
+alert(d.getDay());
+alert(d.getHours());
+alert(d.getMinutes());
+alert(d.getMonth());
