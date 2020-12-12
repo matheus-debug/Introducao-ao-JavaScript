@@ -46,9 +46,22 @@ while(count < 5){
 for (count; count <= 5; count++){
 	console.log(count);
 }*/
-
+/*
 var d = new Date(); //função que exibe a atual data
 alert(d.getDay());
 alert(d.getHours());
 alert(d.getMinutes());
-alert(d.getMonth());
+alert(d.getMonth());*/
+
+//AULA 4 FUNÇÕES
+
+var idade = prompt('Qual é Sua idade? ');
+function ValidaIdade(idade){
+	if (idade >= 18) {
+		console.log('Parabéns, pode tirar CNH!')
+	}else{
+		console.log('Infelizmente não pode tirar CNH!')
+	}
+}
+
+console.log(ValidaIdade(idade));
