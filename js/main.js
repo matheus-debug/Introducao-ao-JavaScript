@@ -55,7 +55,7 @@ alert(d.getMonth());*/
 
 //AULA 4 FUNÇÕES
 
-var idade = prompt('Qual é Sua idade? ');
+/*var idade = prompt('Qual é Sua idade? ');
 function ValidaIdade(idade){
 	if (idade >= 18) {
 		console.log('Parabéns, pode tirar CNH!')
@@ -64,4 +64,4 @@ function ValidaIdade(idade){
 	}
 }
 
-console.log(ValidaIdade(idade));
+console.log(ValidaIdade(idade));*/
