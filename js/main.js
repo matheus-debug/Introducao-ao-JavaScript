@@ -65,3 +65,22 @@ function ValidaIdade(idade){
 }
 
 console.log(ValidaIdade(idade));*/
+
+//AULA 5 - Funções incrementadas no html
+function botao(){
+	//alert('Obrigado por clicar');
+	document.getElementById('teste').innerHTML = 'Obrigado por clicar' //comando inner join modifica o texto do elemento em html
+}
+
+function redicerionar(){
+	window.open('http://google.com'); //abre um link em outra janela
+	window.location.href = 'http://google.com'; //abre um link na mesma janela	
+}
+
+function trocar(elemento){
+	//elemento.innerHTML = prompt('Digite o novo texto'); //é possivel fazer a troca do texto com o elemnto da função
+}
+
+function change(escolher){
+	console.log(escolher.value); //.value pega o valor do select
+}
