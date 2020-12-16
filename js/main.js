@@ -65,7 +65,7 @@ function ValidaIdade(idade){
 }
 
 console.log(ValidaIdade(idade));*/
-
+/*
 //AULA 5 - Funções incrementadas no html
 function botao(){
 	//alert('Obrigado por clicar');
@@ -83,4 +83,35 @@ function trocar(elemento){
 
 function change(escolher){
 	console.log(escolher.value); //.value pega o valor do select
-}
+}*/
+
+
+
+//TESTE #1
+var A = 11;
+var B = 7;
+
+var total = (A + B);
+console.log("X = " + total);
+
+
+//TESTE #2
+var A = -11;
+var B = 6;
+
+var total = (A + B);
+console.log("X = " + total);
+
+//TESTE #3
+var A = 11;
+var B = -2;
+
+var total = (A + B);
+console.log("X = " + total);
+
+//TESTE #4
+var A = 10;
+var B = 7;
+
+var total = (A + B);
+console.log("X = " + total);
